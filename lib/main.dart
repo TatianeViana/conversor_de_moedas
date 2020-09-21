@@ -46,6 +46,7 @@ class _HomeState extends State<Home> {
     euroController.text = "";
   }
 
+// função para zerar todos os label , quando um estiver vazio.
   void _realChanged(String text) {
     if (text.isEmpty) {
       _ClearAll();
